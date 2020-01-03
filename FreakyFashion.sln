@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebMVC", "src\Web Apps\WebMVC\WebMVC.csproj", "{C9679675-544F-4D30-B125-11D1DC32F366}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FC7E8945-483D-4065-A268-B24CBFA2FA7B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web Apps", "Web Apps", "{BC5BD818-B716-4B30-A8C4-8F8286AD63FD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,6 +22,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C9679675-544F-4D30-B125-11D1DC32F366} = {BC5BD818-B716-4B30-A8C4-8F8286AD63FD}
+		{BC5BD818-B716-4B30-A8C4-8F8286AD63FD} = {FC7E8945-483D-4065-A268-B24CBFA2FA7B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EE6EFE0D-970F-4C7B-90BC-95D452EE6F98}
